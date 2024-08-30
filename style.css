@@ -1,0 +1,81 @@
+header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;;
+}
+
+a:hover{
+background-color: brown;
+color: white;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    margin: 150px 150px 0px 250px;
+}
+
+.class1 img{
+    position: relative;
+    bottom: 0;
+    width: 150px;
+    transition: all 2s 0.5s;
+}
+
+.class1:hover img{
+    content: url('./Img_Il-Biscotto-al-Cioccolato_\(600x600\).png');
+    bottom: 54px;
+}
+
+
+p{
+margin: 22px;
+}
+
+p:hover{
+    opacity: 0.5;
+}
+
+.small{
+    border: 2px solid brown;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 20px;
+}
+
+hr{
+    width: 99%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 45%;
+    z-index: -1;
+}
+
+#line{
+    width: 99%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 85%;
+    z-index: -1;
+}
+
